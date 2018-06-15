@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>VueJS</title>
-    <link href="app.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 </head>
 <body>
@@ -11,17 +11,16 @@
     <div class="container">
         <div id="card">
             <input class="card-num-cont" v-model="playerNum">
-
         </div>
-        <div   class="display-content">
-            <img class="gif-container" v-bind:src="randomNum">
+        <div class="display-content">
+
             <img class="gif-container" v-bind:src="determin"></div>
         <div id="card-guess">
             <div class="card-guess-cont">{{computerNum}}</div>
         </div>
-
     </div>
-    <button @click.once="randomNum">Lets Play!</button><button  @click="resetButton">Again?!</button>
+    <button v-if="start" @click="randomNum">Lets Play!</button>
+    <button v-if="replay" @click="resetButton">Again?!</button>
 </div>
 
 <script src="app.js"></script>
