@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=BioRhyme+Expanded|Song+Myung");
+/*===============================
+small phones @ 320px width
+================================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/guessingGameInVue\/css\/app\.scss}line{font-family:\0000311}}
+#card {
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/guessingGameInVue\/css\/app\.scss}line{font-family:\0000315}}
+#card-guess {
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/guessingGameInVue\/css\/app\.scss}line{font-family:\0000319}}
+.container {
+  display: flex;
+  margin: 0 auto;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 80vh;
+  width: 100%;
+  background-color: cadetblue; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/guessingGameInVue\/css\/app\.scss}line{font-family:\0000331}}
+.card-guess-cont, .card-num-cont {
+  font-family: 'BioRhyme Expanded', serif;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  margin: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/guessingGameInVue\/css\/app\.scss}line{font-family:\0000351}}
+button {
+  border: 1px solid #000;
+  width: 100px;
+  height: 50px;
+  background-color: dodgerblue;
+  font-family: 'BioRhyme Expanded', serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/guessingGameInVue\/css\/app\.scss}line{font-family:\0000359}}
+input {
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/guessingGameInVue\/css\/app\.scss}line{font-family:\0000363}}
+.display-content {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 80%;
+  height: 100vh; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/guessingGameInVue\/css\/app\.scss}line{font-family:\0000371}}
+.gif-container {
+  width: 80%;
+  height: 50vh;
+  margin: auto;
+  border: none !important; }
+
+/*# sourceMappingURL=app.css.map */

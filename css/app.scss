@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme+Expanded|Song+Myung');
+
+/*===============================
+small phones @ 320px width
+================================*/
+
+#vue-app {
+
+}
+
+#card {
+  margin: 0 auto;
+}
+
+#card-guess {
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+
+  margin: 0 auto;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 80vh;
+  width: 100%;
+  background-color: cadetblue;
+}
+
+%button-prop {
+  font-family: 'BioRhyme Expanded', serif;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  margin: 5px
+}
+
+.card-guess-cont {
+  @extend %button-prop
+
+}
+
+.card-num-cont {
+  @extend %button-prop
+}
+
+button {
+  border: 1px solid #000;
+  width: 100px;
+  height: 50px;
+  background-color: dodgerblue;
+  font-family: 'BioRhyme Expanded', serif;
+}
+
+input {
+  border: none;
+}
+
+.display-content {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 80%;
+  height: 100vh;
+}
+
+.gif-container {
+  width: 80%;
+  height: 50vh;
+  margin: auto;
+  border: none !important;
+}
